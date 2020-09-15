@@ -17,6 +17,7 @@ import static org.junit.Assert.assertNotNull;
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = PamcaryApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class AlunoTest {
+
     @Autowired
     private TestRestTemplate restTemplate;
 
